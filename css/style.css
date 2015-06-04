@@ -68,7 +68,7 @@
 
 }
 .block{
-	padding: 0px;
+	padding:0px 15px 30px 15px ;
 	
 }
 
@@ -126,24 +126,25 @@ display: inline-block;
 
 .section-center{
 	text-align: center;
-	padding: 45px 0px 5px 0px;
+	padding: 45px 0px 20px 0px;
 }
 
 .section-title{
 	font-size: 32px;
 }
 
-.box1{
-	text-align: center;
-	padding: 15px auto;
-}
 
 #Display-design{
-
+	display: block;
 	background-color: #333333;
-	padding: 40px;
+	padding-bottom: 50px;
+	
 }
 
+#Graphic-design{
+	display: block;
+	padding-bottom: 50px;
+}
 .main ul li a{
 	color: #000000;
 }
@@ -168,6 +169,7 @@ display: inline-block;
 }
 
 #contact{
+	display: block;
 	background-color: #333333;
 
 }
@@ -201,10 +203,6 @@ display: inline-block;
 	color: #ffffff;
 }
 
-.grid.gw{
-	padding: 0px;
-	max-width: 1200px;
-}
 
 
 
@@ -213,6 +211,7 @@ display: inline-block;
 	position: relative;
 	float: right;
 	margin-top: 7px;
+	margin-right: 10px;
 
 }
 
@@ -266,12 +265,12 @@ display: inline-block;
 }
 .words-content{
 	position: relative;
-	padding: 0px 50px;
 	font-size: 40px;
 	font-family: 'Archivo Black', sans-serif;
 }
 
 #Project{
+	display: block;
 	background-color:#333333;
 	padding-bottom: 60px;
 }
@@ -311,11 +310,65 @@ display: inline-block;
 
 
 .row-block{
-	margin:0 auto;
-	max-width: 1200px;
+	padding: 20px 80px 0px 80px;
+}
+
+.p-word{
+	font-size: 12px;
+	color: #808080;
+}
+
+.h2-word{
+	font-size: 22px;
+	color: #ffffff;
+}
+
+#Photography{
+	display: block;
+	padding-bottom: 40px;
+}
+
+#Pg-mobile{
+	display: block;
+	padding-bottom: 40px;
 }
 
 
+#About{
+	display: block;
+}
+
+.fa-flickr{
+	color: #3498db;
+}
+
+.line-style{
+	border-bottom: solid 3px;
+  width: 120px;
+  margin: 0px auto;
+  padding: 10px;
+}
+
+
+.bold-w{
+	font-weight: 400;
+	font-family: 'Arimo', sans-serif;
+}
+
+
+@media (max-width: 400px){
+#Photography{
+  display:none;
+	}
+	
+}
+
+@media (min-width: 400px){
+#Pg-mobile{
+  display:none;
+	}
+	
+}
 
 @media (min-width: 1200px){
 #container {
@@ -338,20 +391,31 @@ display: inline-block;
 }
 	}
 
+
+@media (max-width: 450px){
+.row-block{
+	padding: 10px 20px 0px 20px;
+}
+	}
+
+
+
+
+/*
 @media (max-width: 960px){
 #Display-design{
  display: none;
-}
+}*/
 
 
-
+/*
 @media (max-width: 768px){
 #Display-design{
   background-color: #E6E6E6;
 	height: 700px;
 	padding: 40px;
 }
-	}
+	}*/
 
 @media (max-width: 600px){
 .w2{
@@ -377,6 +441,12 @@ display: inline-block;
 }
 
 
+@media (max-width: 400px){
+p.p-word{
+  display: none;
+	}
+	
+}
 
 
 
